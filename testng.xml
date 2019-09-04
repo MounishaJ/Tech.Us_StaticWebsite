@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="Practice_Section.Al_MLPage"/>
+     <class name="Practice_Section.ClientsPage"/>
+     <class name="Practice_Section.Contact_UsPAge"/>
+     <class name="Practice_Section.Development_TeamPage"/>
+     <class name="Practice_Section.FAQPage"/>
+     <class name="Practice_Section.HomePage"/>
+     <class name="Practice_Section.How_It_Works"/>
+     <class name="Practice_Section.MobileA_DevPage"/>
+     <class name="Practice_Section.OurServices"/>
+     <class name="Practice_Section.Pricing_Page"/>
+     <class name="Practice_Section.Software_DevPAge"/>
+     <class name="Practice_Section.Software_ModernizationPage"/>
+     <class name="Practice_Section.Testimonials_Page"/>
+     <class name="Practice_Section.WebCloud_AppPage"/>
+     
+  </classes>
+  </test>
+  </suite> <!-- Suite -->
+     

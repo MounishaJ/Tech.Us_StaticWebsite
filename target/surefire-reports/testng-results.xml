@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="450732" started-at="2019-09-04T11:29:59Z" finished-at="2019-09-04T11:37:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="450732" started-at="2019-09-04T11:29:59Z" finished-at="2019-09-04T11:37:30Z">
+      <class name="Practice_Section.MobileA_DevPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.MobileA_DevPage@1936f0f5]" name="initialize" duration-ms="29404" started-at="2019-09-04T11:34:06Z" finished-at="2019-09-04T11:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.MobileA_DevPage -->
+      <class name="Practice_Section.Al_MLPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Al_MLPage@3567135c]" name="initialize" duration-ms="21986" started-at="2019-09-04T11:29:59Z" finished-at="2019-09-04T11:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Al_MLPage -->
+      <class name="Practice_Section.FAQPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.FAQPage@47f6473]" name="initialize" duration-ms="81626" started-at="2019-09-04T11:31:41Z" finished-at="2019-09-04T11:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.FAQPage -->
+      <class name="Practice_Section.ClientsPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.ClientsPage@327471b5]" name="initialize" duration-ms="40923" started-at="2019-09-04T11:30:21Z" finished-at="2019-09-04T11:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.ClientsPage -->
+      <class name="Practice_Section.WebCloud_AppPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.WebCloud_AppPage@6537cf78]" name="initialize" duration-ms="19060" started-at="2019-09-04T11:37:11Z" finished-at="2019-09-04T11:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.WebCloud_AppPage -->
+      <class name="Practice_Section.Software_DevPAge">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Software_DevPAge@3a03464]" name="initialize" duration-ms="36599" started-at="2019-09-04T11:35:21Z" finished-at="2019-09-04T11:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Software_DevPAge -->
+      <class name="Practice_Section.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.HomePage@15975490]" name="initialize" duration-ms="11783" started-at="2019-09-04T11:33:03Z" finished-at="2019-09-04T11:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.HomePage -->
+      <class name="Practice_Section.Testimonials_Page">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Testimonials_Page@617c74e5]" name="initialize" duration-ms="50741" started-at="2019-09-04T11:36:20Z" finished-at="2019-09-04T11:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Testimonials_Page -->
+      <class name="Practice_Section.How_It_Works">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.How_It_Works@6b143ee9]" name="initialize" duration-ms="51160" started-at="2019-09-04T11:33:15Z" finished-at="2019-09-04T11:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.How_It_Works -->
+      <class name="Practice_Section.Software_ModernizationPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Software_ModernizationPage@2d3fcdbd]" name="initialize" duration-ms="22045" started-at="2019-09-04T11:35:58Z" finished-at="2019-09-04T11:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Software_ModernizationPage -->
+      <class name="Practice_Section.Contact_UsPAge">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Contact_UsPAge@4157f54e]" name="initialize" duration-ms="21475" started-at="2019-09-04T11:31:02Z" finished-at="2019-09-04T11:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Contact_UsPAge -->
+      <class name="Practice_Section.Development_TeamPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Development_TeamPage@90f6bfd]" name="initialize" duration-ms="17709" started-at="2019-09-04T11:31:24Z" finished-at="2019-09-04T11:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Development_TeamPage -->
+      <class name="Practice_Section.OurServices">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.OurServices@6615435c]" name="initialize" duration-ms="24931" started-at="2019-09-04T11:34:35Z" finished-at="2019-09-04T11:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.OurServices -->
+      <class name="Practice_Section.Pricing_Page">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.Pricing_Page@4909b8da]" name="initialize" duration-ms="21220" started-at="2019-09-04T11:35:00Z" finished-at="2019-09-04T11:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Practice_Section.Pricing_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
