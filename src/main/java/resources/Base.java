@@ -7,9 +7,16 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+import Pages.Home_Page;
 
 public class Base {
 	public static WebDriver driver;
@@ -51,10 +58,39 @@ public class Base {
 				return driver;
 			}
 			
-public void pagedata()
-{
-	
-}
+			public void menus(WebElement link,WebElement item,String text) throws IOException, InterruptedException
+			{
+				Actions action=new Actions(driver);
+				action.moveToElement(link).build().perform();
+				item.click();
+				Thread.sleep(2000);
+				String page_Title=driver.getTitle();
+				Assert.assertEquals(page_Title, text);
+				System.out.println("verified "+page_Title);
+			}
+
+			public void menu(WebElement link,String text) throws InterruptedException
+			{
+				link.click();
+				Thread.sleep(2000);
+				String page_Title=driver.getTitle();
+				Assert.assertEquals(page_Title, text);
+				System.out.println("verified "+page_Title);
+			}
+			@BeforeSuite
+			public void initialize() throws IOException
+			{
+				driver = initializeDriver();
+				driver.get(prop.getProperty("Url"));
+			}
+			
+			@AfterSuite
+			public void teardown()
+			{
+				driver.close();
+			}
+
+
 }
 
 

@@ -1,15 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Practice_Section.MobileA_DevPage">
+        <methods>
+          <include name="Verify"/>
+        </methods>
+      </class> <!-- Practice_Section.MobileA_DevPage -->
+      <class name="Practice_Section.Contact_UsPAge">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.Contact_UsPAge -->
+      <class name="Practice_Section.Software_ModernizationPage">
+        <methods>
+          <include name="Verify"/>
+        </methods>
+      </class> <!-- Practice_Section.Software_ModernizationPage -->
+      <class name="Practice_Section.Pricing_Page">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.Pricing_Page -->
       <class name="Practice_Section.Al_MLPage">
         <methods>
           <include name="initialize"/>
-          <include name="Initialize"/>
+          <include name="Verify"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- Practice_Section.Al_MLPage -->
+      <class name="Practice_Section.OurServices">
+        <methods>
+          <include name="Verify"/>
+        </methods>
+      </class> <!-- Practice_Section.OurServices -->
+      <class name="Practice_Section.Development_TeamPage">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Practice_Section.Development_TeamPage -->
+      <class name="Practice_Section.Testimonials_Page">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.Testimonials_Page -->
+      <class name="Practice_Section.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.HomePage -->
+      <class name="Practice_Section.How_It_Works">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.How_It_Works -->
+      <class name="Practice_Section.WebCloud_AppPage">
+        <methods>
+          <include name="Verify"/>
+        </methods>
+      </class> <!-- Practice_Section.WebCloud_AppPage -->
+      <class name="Practice_Section.Software_DevPAge">
+        <methods>
+          <include name="Verify"/>
+        </methods>
+      </class> <!-- Practice_Section.Software_DevPAge -->
+      <class name="Practice_Section.ClientsPage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.ClientsPage -->
+      <class name="Practice_Section.FAQPage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Practice_Section.FAQPage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

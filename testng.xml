@@ -3,22 +3,20 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     <class name="Practice_Section.Al_MLPage"/>
+    <class name="Practice_Section.HomePage"/>
+     <class name="Practice_Section.HowItWorksPage"/>
+      <class name="Practice_Section.FAQPage"/>
+     <class name="Practice_Section.OurServices"/> 
+     <class name="Practice_Section.ArtificialInteligencePage"/>
+     <class name="Practice_Section.DevelopementTeamPage"/>
+     <class name="Practice_Section.SoftwareDevPage"/>
+     <class name="Practice_Section.MobileAppDevPage"/>
+     <class name="Practice_Section.WebCloudApplicationPage"/>
+     <class name="Practice_Section.SoftwareModernizationPage"/>
+     <class name="Practice_Section.PricingPage"/>
      <class name="Practice_Section.ClientsPage"/>
-     <class name="Practice_Section.Contact_UsPAge"/>
-     <class name="Practice_Section.Development_TeamPage"/>
-     <class name="Practice_Section.FAQPage"/>
-     <class name="Practice_Section.HomePage"/>
-     <class name="Practice_Section.How_It_Works"/>
-     <class name="Practice_Section.MobileA_DevPage"/>
-     <class name="Practice_Section.OurServices"/>
-     <class name="Practice_Section.Pricing_Page"/>
-     <class name="Practice_Section.Software_DevPAge"/>
-     <class name="Practice_Section.Software_ModernizationPage"/>
-     <class name="Practice_Section.Testimonials_Page"/>
-     <class name="Practice_Section.WebCloud_AppPage"/>
-     
+     <class name="Practice_Section.TestimonialPage"/>
+     <class name="Practice_Section.ContactPage"/>
   </classes>
   </test>
-  </suite> <!-- Suite -->
-     
+  </suite> <!-- Suite    -->
