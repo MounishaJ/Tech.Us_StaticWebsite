@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 05 12:17:39 IST 2019</td>
+<td>Started on:</td><td>Fri Sep 06 15:53:04 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (304 ms)</td>
+<tr><td>Total time:</td><td>59 seconds (59492 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Practice_Section.Development_TeamPage.init()'><b>init</b><br>Test class: Practice_Section.Development_TeamPage</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at resources.Base.menus(Base.java:62)
-	at Practice_Section.Development_TeamPage.init(Development_TeamPage.java:20)
+<td title='Practice_Section.HomePage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.HomePage</td>
+<td><div><pre>java.lang.AssertionError: expected [Hire Tech Experts For Your Software Projects - Tech.us] but found [Hire Tech.us For Your Dedicated Development Team - Tech.us]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at Practice_Section.HomePage.pageTitleVerify(HomePage.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,12 +109,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1131316523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1131316523'><pre>java.lang.NullPointerException
-	at java.util.Objects.requireNonNull(Objects.java:203)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at resources.Base.menus(Base.java:62)
-	at Practice_Section.Development_TeamPage.init(Development_TeamPage.java:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace36531985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace36531985'><pre>java.lang.AssertionError: expected [Hire Tech Experts For Your Software Projects - Tech.us] but found [Hire Tech.us For Your Dedicated Development Team - Tech.us]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at Practice_Section.HomePage.pageTitleVerify(HomePage.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -139,7 +145,80 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Practice_Section.Development_TeamPage@475530b9</td></tr>
+<td>Practice_Section.HomePage@293a5bf6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Practice_Section.WebCloudApplicationPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.WebCloudApplicationPage</td>
+<td></td>
+<td>4</td>
+<td>Practice_Section.WebCloudApplicationPage@747ddf94</td></tr>
+<tr>
+<td title='Practice_Section.FAQPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.FAQPage</td>
+<td></td>
+<td>3</td>
+<td>Practice_Section.FAQPage@35e2d654</td></tr>
+<tr>
+<td title='Practice_Section.TestimonialPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.TestimonialPage</td>
+<td></td>
+<td>5</td>
+<td>Practice_Section.TestimonialPage@1bd4fdd</td></tr>
+<tr>
+<td title='Practice_Section.ClientsPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.ClientsPage</td>
+<td></td>
+<td>9</td>
+<td>Practice_Section.ClientsPage@55183b20</td></tr>
+<tr>
+<td title='Practice_Section.HowItWorksPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.HowItWorksPage</td>
+<td></td>
+<td>5</td>
+<td>Practice_Section.HowItWorksPage@2f9f7dcf</td></tr>
+<tr>
+<td title='Practice_Section.SoftwareDevPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.SoftwareDevPage</td>
+<td></td>
+<td>5</td>
+<td>Practice_Section.SoftwareDevPage@4f83df68</td></tr>
+<tr>
+<td title='Practice_Section.ContactPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.ContactPage</td>
+<td></td>
+<td>4</td>
+<td>Practice_Section.ContactPage@6cf0e0ba</td></tr>
+<tr>
+<td title='Practice_Section.MobileAppDevPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.MobileAppDevPage</td>
+<td></td>
+<td>5</td>
+<td>Practice_Section.MobileAppDevPage@7d8995e</td></tr>
+<tr>
+<td title='Practice_Section.SoftwareModernizationPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.SoftwareModernizationPage</td>
+<td></td>
+<td>3</td>
+<td>Practice_Section.SoftwareModernizationPage@130d63be</td></tr>
+<tr>
+<td title='Practice_Section.DevelopementTeamPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.DevelopementTeamPage</td>
+<td></td>
+<td>3</td>
+<td>Practice_Section.DevelopementTeamPage@42a48628</td></tr>
+<tr>
+<td title='Practice_Section.PricingPage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.PricingPage</td>
+<td></td>
+<td>3</td>
+<td>Practice_Section.PricingPage@6aeb35e6</td></tr>
+<tr>
+<td title='Practice_Section.ArtificialInteligencePage.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.ArtificialInteligencePage</td>
+<td></td>
+<td>4</td>
+<td>Practice_Section.ArtificialInteligencePage@1283bb96</td></tr>
+<tr>
+<td title='Practice_Section.OurServices.pageTitleVerify()'><b>pageTitleVerify</b><br>Test class: Practice_Section.OurServices</td>
+<td></td>
+<td>2</td>
+<td>Practice_Section.OurServices@74f0ea28</td></tr>
 </table><p>
 </body>
 </html>

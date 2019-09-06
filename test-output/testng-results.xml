@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="26" total="40" passed="14">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56604" started-at="2019-09-05T10:13:19Z" finished-at="2019-09-05T10:14:16Z">
+  <suite name="Suite" duration-ms="59869" started-at="2019-09-06T10:26:45Z" finished-at="2019-09-06T10:27:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56604" started-at="2019-09-05T10:13:19Z" finished-at="2019-09-05T10:14:16Z">
-      <class name="Practice_Section.FAQPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.FAQPage@3bfdc050]" name="pageTitleVerify" duration-ms="3522" started-at="2019-09-05T10:13:25Z" finished-at="2019-09-05T10:13:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageTitleVerify -->
-      </class> <!-- Practice_Section.FAQPage -->
+    <test name="Test" duration-ms="59869" started-at="2019-09-06T10:26:45Z" finished-at="2019-09-06T10:27:45Z">
       <class name="Practice_Section.WebCloudApplicationPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.WebCloudApplicationPage@6a4f787b]" name="pageTitleVerify" duration-ms="4874" started-at="2019-09-05T10:13:48Z" finished-at="2019-09-05T10:13:52Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.WebCloudApplicationPage@7d8995e]" name="pageTitleVerify" duration-ms="4339" started-at="2019-09-06T10:27:17Z" finished-at="2019-09-06T10:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.WebCloudApplicationPage -->
+      <class name="Practice_Section.FAQPage">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.FAQPage@747ddf94]" name="pageTitleVerify" duration-ms="4605" started-at="2019-09-06T10:26:53Z" finished-at="2019-09-06T10:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleVerify -->
+      </class> <!-- Practice_Section.FAQPage -->
       <class name="Practice_Section.TestimonialPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.TestimonialPage@6d4b1c02]" name="pageTitleVerify" duration-ms="6354" started-at="2019-09-05T10:14:03Z" finished-at="2019-09-05T10:14:09Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.TestimonialPage@6aeb35e6]" name="pageTitleVerify" duration-ms="6638" started-at="2019-09-06T10:27:34Z" finished-at="2019-09-06T10:27:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.TestimonialPage -->
       <class name="Practice_Section.ClientsPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.ClientsPage@7cd62f43]" name="pageTitleVerify" duration-ms="3155" started-at="2019-09-05T10:14:00Z" finished-at="2019-09-05T10:14:03Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.ClientsPage@293a5bf6]" name="pageTitleVerify" duration-ms="5382" started-at="2019-09-06T10:27:29Z" finished-at="2019-09-06T10:27:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.ClientsPage -->
       <class name="Practice_Section.HowItWorksPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.HowItWorksPage@42d80b78]" name="pageTitleVerify" duration-ms="5379" started-at="2019-09-05T10:13:19Z" finished-at="2019-09-05T10:13:25Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Practice_Section.HowItWorksPage@5b8dfcc1]" name="beforetest" is-config="true" duration-ms="21390" started-at="2019-09-06T10:26:24Z" finished-at="2019-09-06T10:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.HowItWorksPage@5b8dfcc1]" name="pageTitleVerify" duration-ms="5266" started-at="2019-09-06T10:26:47Z" finished-at="2019-09-06T10:26:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Practice_Section.HowItWorksPage@5b8dfcc1]" name="afterTest" is-config="true" duration-ms="429" started-at="2019-09-06T10:27:46Z" finished-at="2019-09-06T10:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- Practice_Section.HowItWorksPage -->
       <class name="Practice_Section.SoftwareDevPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.SoftwareDevPage@91161c7]" name="pageTitleVerify" duration-ms="3622" started-at="2019-09-05T10:13:40Z" finished-at="2019-09-05T10:13:44Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.SoftwareDevPage@4f83df68]" name="pageTitleVerify" duration-ms="4020" started-at="2019-09-06T10:27:10Z" finished-at="2019-09-06T10:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.SoftwareDevPage -->
       <class name="Practice_Section.ContactPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.ContactPage@6093dd95]" name="pageTitleVerify" duration-ms="6523" started-at="2019-09-05T10:14:09Z" finished-at="2019-09-05T10:14:16Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.ContactPage@1283bb96]" name="pageTitleVerify" duration-ms="4439" started-at="2019-09-06T10:27:41Z" finished-at="2019-09-06T10:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.ContactPage -->
       <class name="Practice_Section.MobileAppDevPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.MobileAppDevPage@604ed9f0]" name="pageTitleVerify" duration-ms="3572" started-at="2019-09-05T10:13:44Z" finished-at="2019-09-05T10:13:48Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.MobileAppDevPage@6cf0e0ba]" name="pageTitleVerify" duration-ms="3005" started-at="2019-09-06T10:27:14Z" finished-at="2019-09-06T10:27:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.MobileAppDevPage -->
-      <class name="Practice_Section.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Practice_Section.HomePage@1e88b3c]" name="initialize" is-config="true" duration-ms="30837" started-at="2019-09-05T10:12:48Z" finished-at="2019-09-05T10:13:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.HomePage@1e88b3c]" name="pageTitleVerify" duration-ms="24" started-at="2019-09-05T10:13:19Z" finished-at="2019-09-05T10:13:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageTitleVerify -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Practice_Section.HomePage@1e88b3c]" name="teardown" is-config="true" duration-ms="139" started-at="2019-09-05T10:14:16Z" finished-at="2019-09-05T10:14:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Practice_Section.HomePage -->
-      <class name="Practice_Section.SoftwareModernizationPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.SoftwareModernizationPage@685cb137]" name="pageTitleVerify" duration-ms="3479" started-at="2019-09-05T10:13:52Z" finished-at="2019-09-05T10:13:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageTitleVerify -->
-      </class> <!-- Practice_Section.SoftwareModernizationPage -->
       <class name="Practice_Section.DevelopementTeamPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.DevelopementTeamPage@5c3bd550]" name="pageTitleVerify" duration-ms="3700" started-at="2019-09-05T10:13:37Z" finished-at="2019-09-05T10:13:40Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.DevelopementTeamPage@55183b20]" name="pageTitleVerify" duration-ms="3849" started-at="2019-09-06T10:27:06Z" finished-at="2019-09-06T10:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.DevelopementTeamPage -->
+      <class name="Practice_Section.HomePage">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.HomePage@2f9f7dcf]" name="pageTitleVerify" duration-ms="2052" started-at="2019-09-06T10:26:45Z" finished-at="2019-09-06T10:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleVerify -->
+      </class> <!-- Practice_Section.HomePage -->
+      <class name="Practice_Section.SoftwareModernizationPage">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.SoftwareModernizationPage@130d63be]" name="pageTitleVerify" duration-ms="3643" started-at="2019-09-06T10:27:21Z" finished-at="2019-09-06T10:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleVerify -->
+      </class> <!-- Practice_Section.SoftwareModernizationPage -->
       <class name="Practice_Section.PricingPage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.PricingPage@6a41eaa2]" name="pageTitleVerify" duration-ms="3731" started-at="2019-09-05T10:13:56Z" finished-at="2019-09-05T10:14:00Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.PricingPage@42a48628]" name="pageTitleVerify" duration-ms="3533" started-at="2019-09-06T10:27:25Z" finished-at="2019-09-06T10:27:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.PricingPage -->
       <class name="Practice_Section.ArtificialInteligencePage">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.ArtificialInteligencePage@5e3a8624]" name="pageTitleVerify" duration-ms="3932" started-at="2019-09-05T10:13:33Z" finished-at="2019-09-05T10:13:37Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.ArtificialInteligencePage@1bd4fdd]" name="pageTitleVerify" duration-ms="4238" started-at="2019-09-06T10:27:02Z" finished-at="2019-09-06T10:27:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->
       </class> <!-- Practice_Section.ArtificialInteligencePage -->
       <class name="Practice_Section.OurServices">
-        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.OurServices@1bce4f0a]" name="pageTitleVerify" duration-ms="4612" started-at="2019-09-05T10:13:28Z" finished-at="2019-09-05T10:13:33Z">
+        <test-method status="PASS" signature="pageTitleVerify()[pri:0, instance:Practice_Section.OurServices@35e2d654]" name="pageTitleVerify" duration-ms="4786" started-at="2019-09-06T10:26:57Z" finished-at="2019-09-06T10:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleVerify -->

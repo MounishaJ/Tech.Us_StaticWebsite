@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.JavascriptExecutor;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,12 +17,11 @@ import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import Pages.Home_Page;
 
 public class Base {
 	public static WebDriver driver;
 	public static Properties prop;
-		
+	public static Logger log = LogManager.getLogger(Base.class.getName());
 		public Properties Prop() throws IOException
 			{
 			prop=new Properties();     // responsible to pull values from data.properties file
@@ -67,6 +67,7 @@ public class Base {
 				String page_Title=driver.getTitle();
 				Assert.assertEquals(page_Title, text);
 				System.out.println("verified "+page_Title);
+				log.info("Successfully verified Home Page title");
 			}
 
 			public void menu(WebElement link,String text) throws InterruptedException
@@ -76,15 +77,17 @@ public class Base {
 				String page_Title=driver.getTitle();
 				Assert.assertEquals(page_Title, text);
 				System.out.println("verified "+page_Title);
+				log.info("Successfully verified Home Page title");
 			}
+			
 			@BeforeSuite
-			public void initialize() throws IOException
+			public void initializedriver() throws IOException
 			{
 				driver = initializeDriver();
 				driver.get(prop.getProperty("Url"));
 			}
 			
-			@AfterSuite
+		@AfterSuite
 			public void teardown()
 			{
 				driver.close();
